@@ -1,23 +1,33 @@
-# IA_Dante
-Epitech, first year Project. IA, make IAs to solve generated mazes.
+# IA_DANTE
 
+### Goal
+###### The project : make a generator of mazes, this generator can make imperfect as well as perfect mazes.
+###### Most importantly, this project consist of making IAs to solve these mazes !
 
-Goal of the project ==> make a generator of mazes, this generator can make imperfect as well as perfect mazes.
-Most importantly, this project consist of making IAs to solve these mazes !
+### Program compilation and launch:
+##### Compilation
+  ```sh
+        make
+```
 
-To compile : make.
-You can also compile every folder.
-
-To recompile the project : make re.
-
-To clean all : make fclean.
-
-To use the generator : ./generator x y [perfect]   ---> the perfect is an option
+##### Generator
+  ```sh
+        ./generator x y [perfect] ---> the perfect is an option
+```
 It will generate a maze.txt and display the maze on the standard output !
 
-To use the IAs : ./[IA's folder]/solver [maze]  ---> you have to make a maze before or use yours :)
+##### IAs
+  ```sh
+        ./[IA's folder]/solver [maze] ---> you have to make a maze before or use yours :)
+```
 
-To see which is the fastest, and see a beautiful output : ./perf.sh [maze]
+### Performances
+To see which is the fastest, and see a beautiful output.
+  ```sh
+        ./perf.sh [maze]
+```
 It will run all the IAs and tells you which is the best !
 
-Group that make the project : Alexandre Sachs. Kellian Cpierre. (Both in Epitech Bordeaux)
+#### Project realised by:
+- **Alexandre Sachs : [alexandre.sachs@epitech.eu](https://github.com/SachsA)**
+- **Kellian Cipierre : [kellian.cipierre@epitech.eu](https://github.com/K6PIR)**
